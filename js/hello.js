@@ -354,3 +354,5 @@ boundFunc("bound");
 // ✅ Bonus: rest operator
 counter.multiIncrement(2, 3, 5); // Adds 2+3+5 = 10
 console.log(`Final Count: ${counter.getCount()}`);
+
+console.log("object");
