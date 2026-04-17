@@ -356,3 +356,31 @@ counter.multiIncrement(2, 3, 5); // Adds 2+3+5 = 10
 console.log(`Final Count: ${counter.getCount()}`);
 
 console.log("object");
+
+
+
+//17.04.2026
+
+//Type conversion
+
+let p = "123";
+let t = Number(p);
+t+=1;  
+// let s1 = "12.34";
+// let n1 = parseFloat(s1);  
+console.log(t);
+//creating an object
+let obj = {
+    name: "Sourav",
+    age: 23,
+    job: "Developer"
+};
+console.log(obj);
+
+//creation using new object constructor
+let obj1 = new Object();
+obj1.name="sathaiyan";
+obj1.score=499;
+obj1.job="intern";
+
+console.log(obj1);
