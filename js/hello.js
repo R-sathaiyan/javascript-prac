@@ -384,3 +384,11 @@ obj1.score=499;
 obj1.job="intern";
 
 console.log(obj1);
+
+//18.04.2026
+//modifying an object
+let obj = { name: "Sourav", age: 22 };
+console.log(obj);
+
+obj.age = 23;
+console.log(obj);
